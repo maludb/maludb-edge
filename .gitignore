@@ -1,0 +1,39 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+html/.env
+html/.env.*
+!html/.env.example
+
+# Runtime state
+var/
+html/var/
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Local-only connection probes
+html/test-connection.php
+test-connection.php
+
+# Dependency output
+html/vendor/
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Local worktrees
+.worktrees/
+worktrees/
