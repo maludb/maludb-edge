@@ -8,8 +8,7 @@ PHP edge service for the MaluDB API foundation.
 - [Public release checklist](docs/public-release-checklist.md)
 - [Security policy](SECURITY.md)
 - [License](LICENSE)
-- [API and MCP design](docs/superpowers/specs/2026-05-18-maludb-edge-api-design.md)
-- [Foundation implementation plan](docs/superpowers/plans/2026-05-18-maludb-edge-foundation.md)
+- [API and MCP design](docs/api-and-mcp-design.md)
 
 ## Requirements
 
