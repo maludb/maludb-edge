@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bc84396f2b7991aa70c82fdc8b139f11",
+    "packages": [
+        {
+            "name": "maludb/client",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maludb/maludb-client-php.git",
+                "reference": "aca462f14a7c6c336faecc20d217884799c47f65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maludb/maludb-client-php/zipball/aca462f14a7c6c336faecc20d217884799c47f65",
+                "reference": "aca462f14a7c6c336faecc20d217884799c47f65",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "ext-pdo_pgsql": "*",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MaluDB\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "PostgreSQL"
+            ],
+            "authors": [
+                {
+                    "name": "Edward Honour",
+                    "email": "ed@maludb.org"
+                }
+            ],
+            "description": "PHP driver for MaluDB — a memory DBMS on PostgreSQL.",
+            "homepage": "https://github.com/edwardhonour/maludb-core",
+            "keywords": [
+                "Audit",
+                "knowledge",
+                "llm",
+                "maludb",
+                "memory",
+                "postgresql",
+                "rag"
+            ],
+            "support": {
+                "issues": "https://github.com/maludb/maludb-client-php/issues",
+                "source": "https://github.com/maludb/maludb-client-php/tree/v0.1.0"
+            },
+            "time": "2026-05-17T18:15:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

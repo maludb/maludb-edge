@@ -1,0 +1,15 @@
+{
+    "license": "PostgreSQL",
+    "require": {
+        "maludb/client": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaluDbEdge\\": "src/Edge/",
+            "MaluDbEdge\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
